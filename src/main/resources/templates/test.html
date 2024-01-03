@@ -6,10 +6,8 @@
     <title th:text="${title}"></title>
 </head>
 <body>
-    <h1 th:text="${title_content}"></h1>
-    <ul>
-        <li th:text="${user.name}"></li>
-        <li th:text="${user.lastname}"></li>
+    <h1 th:text="${title}"></h1>
+    <ul th:text="${user}">
     </ul>
 </body>
 </html>
